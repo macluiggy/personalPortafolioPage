@@ -1,8 +1,8 @@
 /* Custom properties/variables  */
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be31a6;
-    --main-blue: #567c9b;
+    --main-red: #922200;
+    --main-blue: #b17747;
     --main-gray: #1d334d;
   }
   
@@ -109,12 +109,12 @@
   
   .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: #b91b3e;
+    background: var(--main-red);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -161,7 +161,7 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: #b91b3e;
+    color: var(--main-red);
   }
   
   /* Projects section */
@@ -169,7 +169,7 @@
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: #637a90;
+    background: var(--main-blue);
   }
   
   .projects-section-header {
